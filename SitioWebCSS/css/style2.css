@@ -104,11 +104,38 @@
     top: 15px; 
     left: 3px;
     width: 20%;
-    height: 440px;
-    border: black 1px solid;
+    height: 430px;
+    border: 1px solid #000000;
+    -moz-border-radius: 9px;
+    -webkit-border-radius:9px;
+    padding: 5px;
     } 
 
+.navegacion1{ 
+    float:left;
+    position: relative;
+    top: 15px; 
+    left: 3px;
+    width: 16%;
+    height: 340px;
+    border: 1px solid #000000;
+    -moz-border-radius: 9px;
+    -webkit-border-radius:9px;
+    padding: 5px;
+    } 
 
+.navegacion2{ 
+    float:left;
+    position: relative;
+    top: 15px; 
+    left: 50px;
+    width: 60%;
+    height: 240px;
+    border: 1px solid #000000;
+    -moz-border-radius: 9px;
+    -webkit-border-radius:9px;
+    padding: 5px;
+        } 
 /*slectores id*/
 #nombre{
     float:left; 
@@ -271,3 +298,12 @@ img, iframe {
     margin:auto;
 }
 
+strong, i{
+    position: relative;
+    color: darkblue;
+}
+
+bdi, em{
+    position: relative;
+    color: firebrick;
+}
